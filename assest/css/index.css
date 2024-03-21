@@ -16,13 +16,13 @@ h2 h1 {margin: 0px;}
 .menu {text-decoration: none;color: #000;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 600;line-height: 24px;margin-right: 40px;}
 .active {color: #D60000;font-size: 16px;font-style: normal;font-weight: 600;line-height: normal;}
 .authlogout {width: 153px; height: 42px;border-radius: 33px;border: 1px solid #D60000;background: #D60000;}
-.walletconnect { color: #FFF; font-family: Roboto; font-size: 14px; font-style: normal; font-weight: 600; line-height: normal; width: 85.723px; height: 19.297px; flex-shrink: 0; margin-right: 40px;}
+.walletconnect { color: #FFF; font-family: Roboto; font-size: 14px; font-style: normal; font-weight: 600; line-height: normal; width: 85.723px; height: 19.297px; flex-shrink: 0; margin-right: 40px; cursor: pointer;}
 .notificationcount {background: #000; width: 23px; height: 20px; border-radius: 50px; margin-left: 125px; position: absolute; margin-top: -36px;}
 .transactioncount {display: flex; justify-content: space-around; align-items: center;}
 
 /* banner porject */
 .bannerproject {border-radius: 15px; background: linear-gradient(180deg, #D9CAF5 0%, #EBEDD1 52.08%, #FFD7D7 100%); display: flex;}
-.project-detail {padding-left: 30px; margin-top: 80px;}
+.project-detail {padding-left: 150px; margin-top: 80px;}
 img.no-select {user-select: none; pointer-events: none;}
 .project-detail h1 {color: #D60000; font-size: 42px; font-family: Roboto; margin: 8px 0px;}
 .project-detail h2 {color: #000;font-family: Roboto;font-size: 42px;font-style: normal;font-weight: 400;margin: 8px 0px;}
@@ -40,7 +40,10 @@ img.no-select {user-select: none; pointer-events: none;}
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    cursor: pointer;
 }
+.plan-buy:hover{box-shadow: 0 0 11px rgba(33,33,33,.2); }
+
 .carousel-icons{display: flex; gap: 10px; margin: 36px 0px;}
 .carousel-icon {
     width: 15px;
@@ -59,6 +62,7 @@ img.no-select {user-select: none; pointer-events: none;}
     /* Set the text color to white or any color that contrasts with the gray background */
     display: inline-block;
     margin-top: 70px;
+    cursor: pointer;
 }
 
 .bg-active {
@@ -128,9 +132,11 @@ img.no-select {user-select: none; pointer-events: none;}
 .featured-caroucel-detail {display: flex;align-items: center;}
 .featured-caroucel-review {height: fit-content !important;}
 .list-dt {display: flex;justify-content: center; margin-top: 10px;}
+.launchpad-dt:hover{box-shadow: 0 0 11px rgba(33,33,33,.2); cursor: pointer; }
 .launchpad-dt {width: 124px;background-color: #F5F5F5;border-radius: 15px; margin: 0px 5px;}
 .launchpad-dts{display: block;margin-top: 15px;}
 .launchpad-dts p{text-align: center;}
+
 .count-ptr{position: relative; align-items: center; padding: 15px;}
 .launchpad-gnum{color: #15AB3D;text-align: center;font-family: Roboto;font-size: 16px;font-weight: 600;line-height: normal;}
 .launchpad-onum{color: #CD7B00;text-align: center;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 600;line-height: normal;}
@@ -139,7 +145,7 @@ img.no-select {user-select: none; pointer-events: none;}
 .launchpad-oCl{fill: #AEECBF;padding: 10px 15px;background: #F2CC93;border-radius: 50px;position: absolute; z-index: 2;  left: 41px; }
 .launchpad-pCl{fill: #AEECBF;padding: 10px 15px;background: #EEA5A5;;border-radius: 50px; position:absolute; z-index: 3; left: 69px;}
 
-.project-title{display: flex; justify-content: space-between; padding: 5px 100px;}
+.project-title{display: flex; justify-content: space-between; padding: 5px 0px;}
 .project-ivo{color: #D60000;}
 .project-view{ background-color: #ffffff; border: none; color: #D60000;}
 .project-list{margin: 0px; display: flex; flex-wrap: wrap;     justify-content: center;
@@ -164,7 +170,7 @@ img.no-select {user-select: none; pointer-events: none;}
 .step-description{width: auto;  padding: 50px;}
 
 .apply-now{background: linear-gradient(180deg, #D9CAF5 0%, #EBEDD1 52.08%, #FFD7D7 100%); width: auto;height: 217px; display: flex; justify-content: space-around; align-items: center;}
-.apply-btn{background-color :#D60000; width: 164px; height: 42px; border-radius: 16px ; border:0;}
+.apply-btn{background-color :#D60000; width: 164px; height: 42px; border-radius: 16px ; border:0; cursor: pointer;}
 .apply-title{font-size: 32px; font-weight: 600;}
 
 .footer-bar{display: flex; justify-content: space-between;}
